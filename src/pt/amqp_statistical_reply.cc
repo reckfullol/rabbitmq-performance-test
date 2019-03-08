@@ -139,7 +139,7 @@ static int run(
 }
 
 int main(int argc, char const *const *argv) {
-    if (argc != 14) {
+    if (argc != 15) {
         fprintf(stderr, "Usage: %s recv_hostname recv_port send_hostname send_port recv_exchange_name recv_exchange_type send_exchange_name send_exchange_type recv_queue binding_key routing_key user_name password\n", argv[0]);
         return 1;
     }
