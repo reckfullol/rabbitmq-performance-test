@@ -1,1 +1,1 @@
-rabbitmq_performance_test
+rabbitmq-performance-test
